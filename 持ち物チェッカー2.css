@@ -1,0 +1,36 @@
+header{
+    height: 100px;
+    background-color: #87cefa;
+    top: 0;
+    width: 100%;
+    padding-bottom: 0%;
+
+}
+header h1{
+    border-bottom:1px solid black ;
+}
+
+.main{
+    height:1000px;
+    background-color: white;
+}
+
+footer{
+    height: 70px;
+    background-color: grey;
+}
+.checkbox-item {
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  cursor: grab;
+
+  display: flex;               /* 横並びにする */
+  justify-content: space-between; /* 左右に分ける */
+  align-items: center;         /* 縦方向を中央揃え */
+}
+
+.checkbox-item.dragging {
+  opacity: 0.5;
+}
